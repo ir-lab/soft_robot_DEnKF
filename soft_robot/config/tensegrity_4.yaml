@@ -1,0 +1,39 @@
+mode:
+    mode: 'train'
+    multiprocessing_distributed: False
+    dist_url: tcp://127.0.0.1:2345
+    num_threads: 1
+    do_online_eval: True
+    parameter_path: './dataset/processed_data/parameter_4.pkl'
+train:
+    dim_x: 3
+    dim_z: 3
+    dim_a: 40
+    num_ensemble: 32
+    seed: 0
+    model_name: 'tensegrity_4'
+    dataset: 'tensegrity'
+    input_size: 30
+    data_path: './dataset/processed_data/train_dataset_4.pkl'
+    batch_size: 64
+    num_epochs: 50
+    learning_rate: 1e-4
+    weight_decay: 1e-2
+    adam_eps: 1e-3
+    log_freq: 100
+    eval_freq: 10000
+    log_directory: './experiments'
+    loss: 'mse'
+test:
+    dim_x: 3
+    dim_z: 3
+    dim_a: 40
+    num_ensemble: 32
+    model_name: 'tensegrity_33'
+    data_path: './dataset/processed_data/test_dataset_4.pkl'
+    input_size: 30
+    checkpoint_path: './experiments/tensegrity_4/model-100000'
+    dataset: 'tensegrity'
+optim:
+    optim: 'adamw'
+    lr_scheduler: 'polynomial_decay'
