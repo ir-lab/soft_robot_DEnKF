@@ -105,6 +105,11 @@ dPF-M-lrn are reproduced for detailed comparisons.
 ## Citation
 * Please cite the paper if you used any materials from this repo, Thanks.
 ```
-TBD
+@article{liu2023learning,
+  title={Learning Soft Robot Dynamics using Differentiable Kalman Filters and Spatio-Temporal Embeddings},
+  author={Liu, Xiao and Ikemoto, Shuhei and Yoshimitsu, Yuhei and Amor, Heni Ben},
+  journal={arXiv preprint arXiv:2308.09868},
+  year={2023}
+}
 ```
 
