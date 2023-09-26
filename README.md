@@ -1,5 +1,5 @@
 # soft_robot_DEnKF
-This repository is the official implementation of the paper "Learning Soft Robot Dynamics using Differentiable Kalman Filters and Spatio-Temporal Embeddings", which has been accepted to 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023)
+This repository is the official implementation of the paper "[Learning Soft Robot Dynamics using Differentiable Kalman Filters and Spatio-Temporal Embeddings](https://arxiv.org/abs/2308.09868)", which has been accepted to 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2023)
 
 <p align="center">
 <img src = "img/overview_new.png" width ="600" />
