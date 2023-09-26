@@ -85,7 +85,7 @@ The Dataset is available upon request. (Dr. Ikemoto: ikemoto@brain.kyutech.ac.jp
 
 ### Real-time Tracking
 <p align="center">
-<img src = "img/test.gif" width ="600"/>
+<img src = "img/result.gif" width ="600"/>
 </p>
 The real-time estimation of the state on the tensegrity robot arm is demonstrated in this study. Specifically, the `left` figure presents a motion sequence of the robot without applying external forces, while the `right` figure showcases the real-time tracking outcomes (along with the corresponding uncertainty) of the positions of the hand tip.
 
